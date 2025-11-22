@@ -106,7 +106,7 @@ export const LinkTable: React.FC<LinkTableProps> = ({ links }) => {
                 <td className="px-6 py-4">
                   <div className="flex items-center gap-2 max-w-md">
                     <a
-                      href={link.shortUrl}
+                      href={link.originalUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary-400 hover:text-primary-300 truncate flex items-center gap-1"
@@ -186,7 +186,7 @@ export const LinkTable: React.FC<LinkTableProps> = ({ links }) => {
                   <CopyButton text={link.shortUrl} />
                 </div>
                 <a
-                  href={link.shortUrl}
+                  href={link.originalUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary-400 hover:text-primary-300 text-sm flex items-center gap-1 break-all"

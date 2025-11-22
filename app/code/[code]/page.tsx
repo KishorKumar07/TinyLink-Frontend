@@ -302,7 +302,7 @@ export default function StatsPage() {
             <label className="text-sm font-medium text-gray-400">Original URL</label>
             <div className="mt-1">
               <a
-                href={currentLink.shortUrl}
+                href={currentLink.originalUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary-400 hover:text-primary-300 break-all flex items-center gap-1"
